@@ -42,5 +42,5 @@ destLang defaults to 'en'
 
 sourceLang is empty by default and will try to guess language from the text
 
-MsTranslate have translate_array which recieving and array instead of text. All texts in array must be same language
+MsTranslate have translate_array method which recieving and array instead of text. All texts in array must be same language
 
