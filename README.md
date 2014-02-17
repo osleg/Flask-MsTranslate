@@ -9,6 +9,13 @@ Works as follows:
 2. Use it either in template or in the view
 
 
+in your config file you should add 2 variables:
+MS_TRANSLATE_ID = 'yourApplicationId'
+MS_TRANSLATE_SECRET = 'yourSecretKey'
+
+The values for this 2 variables taken from azur marketplace as described here:
+http://msdn.microsoft.com/en-us/library/hh454950.aspx
+
 app.py:
 ```python
 from flask import Flask, render_template
